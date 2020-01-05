@@ -1,11 +1,9 @@
-## ISLAND GENERATOR
-(or maybe a new game who knows...)
+## 3D tunnel
 
+just learning some glsl & three in here
 
 #### TO DO LIST
 
-* Add gravity to the terrain
-* create controls for person to move with arrow and can jump
-* generate sea
-* generate palm trees
-* create more realistic shape for island
+* moving textures
+* create spaceship or smthing
+* do some shader stuff
