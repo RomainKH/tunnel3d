@@ -1,0 +1,36 @@
+@font-face
+    font-family "PlayFairDisplay"
+    src url('../fonts/PlayfairDisplay-Bold.ttf') format('ttf')
+    font-weight 600
+
+@font-face
+    font-family "PlayFairDisplay"
+    src url('../fonts/PlayfairDisplay-Regular.ttf') format('ttf')
+    font-weight 400
+
+button.fly
+    z-index 1
+    position fixed
+    border none
+    background white
+    color black
+    border-radius 50px
+    width 50px
+    height 50px
+    padding 5px
+    outline none
+    cursor pointer
+    top 50%
+    left 50%
+    transition .2s ease-out
+    transform translate(-50%, -50%)
+
+h1, h2, h3, h4, h5 
+    font-family "PlayFairDisplay", serif
+    font-weight 400
+
+canvas 
+    position absolute
+    top 0
+    left 0
+    z-index -1
